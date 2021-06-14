@@ -1,0 +1,8 @@
+.main-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 47px 0px 48px 0px;
+
+}
+

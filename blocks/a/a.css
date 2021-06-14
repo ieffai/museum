@@ -1,0 +1,9 @@
+a {
+    text-decoration-line: none; 
+    color: #001185;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    opacity: 0.7;
+}

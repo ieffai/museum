@@ -1,0 +1,20 @@
+.pg-projects__description {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .pg-projects__description{
+        width: 39%;
+    }
+ }
+
+@media screen and (max-width: 425px){
+    .pg-projects__description{
+        margin: unset;
+        width: 95%;
+    }
+ }

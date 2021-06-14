@@ -1,0 +1,22 @@
+.project__line {
+width: 45px;
+border: 1px solid #FBAC86;
+margin: 9px 15px 0px 20px;
+}
+
+@media screen and (max-width: 768px){
+    .project__line {
+        margin-top: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .project__line {
+        width: 30px;
+        border: 1px solid #FBAC86;
+        margin: 27px 22px 0px 9px; 
+    }
+
+}

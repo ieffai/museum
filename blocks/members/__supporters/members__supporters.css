@@ -1,0 +1,10 @@
+.members__supporters {
+
+}
+
+@media screen and (max-width: 425px){
+    .members__supporters {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,12 @@
+.project__know-more {
+    display: flex;
+    flex-direction: row;   
+}
+
+@media screen and (max-width: 320px){
+    .project__name-container {
+
+        padding-top: 15px;
+        padding-bottom: 35px;
+
+}

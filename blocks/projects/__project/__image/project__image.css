@@ -1,0 +1,17 @@
+.project__image {
+        width: 100%;
+        height: auto;
+    
+}
+
+
+
+@media screen and (max-width: 320px){
+    .project__image {
+        height: 31vh;
+        width: 86vw;
+        margin-top: 0px;
+        object-fit: contain;
+    }
+
+}

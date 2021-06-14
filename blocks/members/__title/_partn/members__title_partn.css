@@ -1,0 +1,11 @@
+.members__title_partn {
+    margin: 0 0 0 0;
+}
+
+@media screen and (max-width: 320px){
+    .members__title_partn {
+        margin: 111px 0 0 0;
+        text-align: center;
+    }
+
+}

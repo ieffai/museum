@@ -1,0 +1,12 @@
+.projects__hat {
+    display: flex;
+    padding: 47px 0px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px){
+    .projects__hat {
+        padding:20px 0px;
+    }
+
+}

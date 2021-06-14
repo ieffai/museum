@@ -1,0 +1,7 @@
+.description__text_content {
+margin: unset;
+}
+
+.description__text_content:first-of-type {
+    margin-bottom: 15px;
+}

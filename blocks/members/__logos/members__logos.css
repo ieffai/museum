@@ -1,0 +1,30 @@
+.members__logos {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 450px;
+    padding-right: 450px;
+    margin-bottom: 128px;
+
+    }
+
+    @media screen and (max-width: 768px){
+        .members__logos {
+            padding-bottom: 60px;
+            margin-bottom: 0px;
+        }
+    
+    }
+
+
+    @media screen and (max-width: 425px){
+        .members__logos {
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+            padding-bottom: 0px;
+            width: 85%;
+            margin-top: 0px;
+            justify-content: center;
+        }
+    
+    }

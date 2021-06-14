@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Pribambas';
+  font-style:  normal;
+  src:  url("./fonts/Pribambas-Regular.ttf") format("truetipe"),
+        url("./fonts/Pribambas-Regular.woff2") format("woff2"),
+        url('./fonts/Pribambas-Regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'FiraSans';
+  font-style:  normal;
+  src: url("./fonts/Firasansregular.ttf") format("truetipe"),
+  url("./fonts/Firasansregular.woff2") format("woff2"),
+  url('./fonts/Firasansregular.woff') format('woff');
+}

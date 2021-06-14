@@ -1,0 +1,28 @@
+.pg-projects__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 65px;
+}
+
+.pg-projects__container:nth-of-type(2) {
+    flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width: 768px){
+    .pg-projects__container{
+        padding: 50px 10px;
+    }
+ }
+
+@media screen and (max-width: 425px){
+    .pg-projects__container{
+       flex-direction: column;
+       padding: 31px 35px;
+    }
+
+    .pg-projects__container:nth-of-type(2) {
+        flex-direction: column;
+    }
+ }

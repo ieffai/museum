@@ -1,0 +1,32 @@
+.stock__text {
+font-family: 'FiraSans';
+font-size: 20px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+margin-top: 0px;
+margin-bottom: 60px;
+}
+
+.stock__text:last-of-type {
+    margin-bottom: 0px;
+    }
+
+@media screen and (max-width: 1024px){
+    .stock__text {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .stock__text {
+        font-family: Calibri;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 24px;
+    }
+
+}
+

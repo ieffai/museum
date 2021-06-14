@@ -1,0 +1,31 @@
+.footer__copyright {
+    font-family: 'FiraSans';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px){
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 17px;
+        order: 3;
+        margin-left: 0px;
+
+    }
+
+}
+
+/* @media screen and (max-width: 320px){
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 17px;
+
+        margin-left: 0px;
+
+    }
+
+} */

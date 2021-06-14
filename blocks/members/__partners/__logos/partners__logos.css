@@ -1,0 +1,15 @@
+.partners__logos {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+
+    }
+
+    @media screen and (max-width: 425px){
+        .partners__logos {
+            padding-bottom: 190px; 
+            margin-top: 0px;
+        }
+    
+    }

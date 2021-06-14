@@ -1,0 +1,17 @@
+.header__menu {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 425px){
+    .header__menu {
+    object-fit: contain;
+    display: flex;
+    transform: rotate(180deg);
+    transition: .3s;
+
+    }
+
+}

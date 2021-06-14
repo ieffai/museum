@@ -1,0 +1,30 @@
+.main-banner__link {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-image: url(../../../images/main-banner__btn.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-family: 'FiraSans';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #001185;
+    width: 340px;
+    height: 70px;
+    border: 0;
+    }
+
+@media screen and (max-width: 425px){
+    .main-banner__link{
+        background-size: contain;
+        font-size: 18px;
+        line-height: 18px;
+        width: 245px;
+        height: 50px;
+    }
+    
+}

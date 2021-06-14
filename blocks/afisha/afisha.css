@@ -1,0 +1,12 @@
+.afisha {
+    display: flex;
+    justify-content: center;
+    padding: 77px 0px;
+}
+
+@media screen and (max-width: 425px){
+    .afisha {
+        padding: 25px 0px;
+    }
+
+}

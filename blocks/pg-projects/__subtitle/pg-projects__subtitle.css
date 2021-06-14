@@ -1,0 +1,31 @@
+.pg-projects__subtitle {
+font-family: 'FiraSans';
+font-weight: normal;
+font-size: 36px;
+line-height: 44px;
+padding-top: 23px;
+padding-bottom: 23px;
+padding-left: 48px;
+margin: unset;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px){
+    .pg-projects__subtitle{
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        padding-left: 48px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .pg-projects__subtitle{
+        padding-top: 5px;
+        padding-bottom: 11px;
+        padding-left: 24px;
+    }
+
+}

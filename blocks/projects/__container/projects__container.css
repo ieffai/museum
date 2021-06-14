@@ -1,0 +1,27 @@
+.projects__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 82px 65px 97px 64px;
+}
+
+@media screen and (max-width: 768px){
+    .projects__container {
+        padding: 35px 5px 35px 5px;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 425px){
+    .projects__container {
+        padding: 30px 25px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+

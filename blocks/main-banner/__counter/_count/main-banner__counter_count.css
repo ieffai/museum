@@ -1,0 +1,17 @@
+.main-banner__counter_count {
+font-size: 48px;
+line-height: 48px;
+color: #A95099;
+text-align: center;
+}
+
+@media screen and (max-width: 425px){
+    .main-banner__counter_count {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+}
+
+
+

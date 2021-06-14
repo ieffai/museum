@@ -1,0 +1,15 @@
+.description__text {
+font-family: 'FiraSans';
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .description__text {
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 26px;
+    }
+ }

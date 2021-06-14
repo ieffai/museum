@@ -1,0 +1,21 @@
+.footer__mail-to {
+font-family: 'FiraSans';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+@media screen and (max-width: 768px){
+    .footer__mail-to {
+        font-size: 14px;
+        line-height: 17px;
+        order: 1;
+        margin-bottom: 15px;
+    }
+
+}
+

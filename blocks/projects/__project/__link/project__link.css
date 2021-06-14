@@ -1,0 +1,28 @@
+.project__link {
+font-family: 'FiraSans';
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+
+}
+
+@media screen and (max-width: 768px){
+    .project__link {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: -7px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 320px){
+    .project__link {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+
+}

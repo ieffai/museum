@@ -1,0 +1,15 @@
+.main-banner__image {
+    width: 646px;
+    height: 121px;
+    
+}
+
+@media screen and (max-width: 425px){
+    .main-banner__image {
+        width: 250px;
+        height: 47px;
+        margin-bottom: 13px;
+
+    }
+
+}

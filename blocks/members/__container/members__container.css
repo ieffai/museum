@@ -1,0 +1,27 @@
+.members__container {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+    .members__container {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .members__container {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+}

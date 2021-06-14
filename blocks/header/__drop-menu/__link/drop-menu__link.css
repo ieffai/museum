@@ -1,0 +1,12 @@
+.drop-menu__link {
+  margin-bottom: 10px;
+  width: 100px;
+  text-align: right;
+
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.drop-menu__link:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,16 @@
+.main-banner__counter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 425px){
+    .main-banner__counter {
+        margin-bottom: 39px;
+
+    }
+
+}
+
+
+

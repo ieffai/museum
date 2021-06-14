@@ -1,0 +1,6 @@
+.header__drop-menu_is_opened {
+    display: flex;
+    transition: .3s;
+    padding-right: 30px;
+}
+

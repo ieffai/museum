@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Музей для всех</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link
+      rel="icon"
+      href="http://in-museum.ru/wp-content/uploads/2019/04/cropped-logo_big-1-32x32.png"
+      sizes="32x32"
+    />
+  </head>
+
+  <body>
+    <div class="page" id="page">
+      <header class="header" tabindex="1">
+        <img class="header__logo" src="./images/logo.png" alt="Главный логотип страницы" />
+
+        <div class="drop-menu__container">
+          <img
+            class="header__menu"
+            src="./images/mob_menu.png"
+            alt="Выпадающее меню"
+            id="header__menu"
+          />
+          <nav class="header__drop-menu" id="header__drop-menu">
+            <ul>
+              <li class="drop-menu__link"><a href="index.html#main" tabindex="-1">АКЦИЯ</a></li>
+              <li class="drop-menu__link"><a href="#afisha" tabindex="-1">АФИША</a></li>
+              <li class="drop-menu__link"><a href="#org" tabindex="-1">ОРГАНИЗАТОРЫ</a></li>
+              <li class="drop-menu__link"><a href="#projects" tabindex="-1">СПЕЦПРОЕКТЫ</a></li>
+              <li class="drop-menu__link"><a href="#partners" tabindex="-1">ПАРТНЕРЫ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__container">
+          <a href="index.html#main" class="header__link" tabindex="-1">АКЦИЯ</a>
+          <a href="#afisha" class="header__link" tabindex="-1">АФИША</a>
+          <a href="#org" class="header__link" tabindex="-1">ОРГАНИЗАТОРЫ</a>
+          <a href="#projects" class="header__link" tabindex="-1">СПЕЦПРОЕКТЫ</a>
+          <a href="#partners" class="header__link" tabindex="-1">ПАРТНЕРЫ</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="main" class="main-banner content_colored" tabindex="2">
+          <h1 class="main-banner__title">всероссийская инклюзивная акция</h1>
+          <img
+            class="main-banner__image"
+            src="./images/main-banner_image.png"
+            alt="Веселая надпись 'Музей для всех' "
+          />
+          <h4 class="main-banner__subtitle">
+            Выставки, экскурсии, концерты, театральные квесты и мастер-классы для детей и взрослых,
+            с инвалидностью и без
+          </h4>
+          <h2 class="main-banner__date">18-20 апреля 2020</h2>
+          <div class="main-banner__counter">
+            <h3 class="main-banner__counter_title">До начала акции осталось:</h3>
+            <div class="main-banner__counter_count">117 дней</div>
+          </div>
+          <a href="https://www.culture.ru" class="main-banner__link" tabindex="-1"
+            >афиша мероприятий</a
+          >
+        </section>
+
+        <section class="stock" tabindex="3">
+          <p class="stock__text">
+            Акция «Музей для всех” пройдет в России в третий раз. В 2017 году акция объединила более
+            250 российских музеев и 13000 участников, а в 2018 году в ней приняли участие 360 музеев
+            и 16700 человек со всей страны. Мы надеемся, что количество наших единомышленников будет
+            расти!
+          </p>
+          <p class="stock__text">
+            В рамках акции музеи приглашают посетителей на выставки, экскурсии, концерты,
+            театральные квесты и мастер-классы, адаптированные или созданные с участием людей с
+            инвалидностью.
+          </p>
+          <p class="stock__text">
+            Задача акции — привлечь внимание широкой общественности к значимости равноправного
+            участия всех людей в культурной жизни. В этот день музеи приглашают всех тех, кто
+            поддерживает развитие инклюзии в нашей стране.
+          </p>
+        </section>
+
+        <section id="projects" class="projects" tabindex="4">
+          <div class="projects__hat content_colored">
+            <h2 class="projects__title">ПРОЕКТЫ</h2>
+          </div>
+
+          <div class="projects__container">
+            <div class="projects__project">
+              <img
+                class="project__image"
+                src="./images/project__image_1.png"
+                alt="Человеку на инвалидной коляске помогают преодолеть бордюр"
+              />
+              <div class="project__name-container">
+                <div class="project__title">“Неудобные вопросы об инвалидности”</div>
+                <div class="project__know-more">
+                  <hr class="project__line" />
+                  <a href="projects.html#proj1" class="project__link" tabindex="-1"
+                    >Узнать больше</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="projects__project">
+              <img
+                class="project__image"
+                src="./images/project__image_2.png"
+                alt="Человек рассказывает свою историю"
+              />
+              <div class="project__name-container">
+                <div class="project__title">“Как я понял, что у меня инвалидность”</div>
+                <div class="project__know-more">
+                  <hr class="project__line" />
+                  <a href="projects.html#proj2" class="project__link" tabindex="-1"
+                    >Узнать больше</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="projects__project">
+              <img
+                class="project__image"
+                src="./images/project__image_3.png"
+                alt="Человек на инвалидной коляске гладит собаку"
+              />
+              <div class="project__name-container">
+                <div class="project__title">“Как помогает ваше домашнее животное в жизни”</div>
+                <div class="project__know-more">
+                  <hr class="project__line" />
+                  <a href="projects.html#proj3" class="project__link" tabindex="-1"
+                    >Узнать больше</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="afisha" class="afisha content_colored" tabindex="5">
+          <a href="https://www.culture.ru" tabindex="-1" class="afisha__btn"
+            >афиша мероприятий</a
+          >
+        </section>
+
+        <section class="members" tabindex="6">
+          <h2 class="members__title members__title_org">ОРГАНИЗАТОРЫ</h2>
+          <div class="members__logos">
+            <img class="members__logo" src="./images/org1.png" alt="" />
+            <img class="members__logo" src="./images/org2.png" alt="" />
+            <img class="members__logo" src="./images/org3.png" alt="" />
+          </div>
+
+          <div id="org" class="members__container">
+            <div class="members__supporters">
+              <h2 class="members__title members__title_supp">при поддержке</h2>
+              <div class="supporters__logos">
+                <img class="members__logo" src="./images/supp1.png" alt="" />
+                <img class="members__logo" src="./images/supp2.png" alt="" />
+                <img class="members__logo" src="./images/supp3.png" alt="" />
+              </div>
+            </div>
+
+            <div id="partners" class="members__partners">
+              <h2 class="members__title members__title_partn">партнеры</h2>
+              <div class="partners__logos"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer content_colored" tabindex="7">
+        <a href="mailto:inmuseumrus@gmail.com" class="footer__mail-to" tabindex="-1"
+          >inmuseumrus@gmail.com</a
+        >
+        <div class="footer__copyright">2019 &#169; Инклюзивный музей</div>
+        <div class="footer__links">
+          <a
+            href="https://www.youtube.com/watch?v=Eu9S8JHVfw8"
+            class="footer__link"
+            tabindex="-1"
+          >
+            <img class="link__image" src="./images/youtube.png" alt="" />
+          </a>
+          <a href="https://vk.com/club171467623" class="footer__link" tabindex="-1">
+            <img class="link__image" src="./images/VK.png" alt="" />
+          </a>
+          <a href="https://www.facebook.com/icluseumrus/" class="footer__link" tabindex="-1">
+            <img class="link__image" src="./images/facebook.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/inmuseumrus/" class="footer__link" tabindex="-1">
+            <img class="link__image" src="./images/instagram.png" alt="" />
+          </a>
+        </div>
+      </footer>
+    </div>
+      <script type="module" src="app.js"></script>
+  </body>
+</html>

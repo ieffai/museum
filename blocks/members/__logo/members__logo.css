@@ -1,0 +1,38 @@
+.members__logo {
+    object-fit: contain;
+    margin-left: 46px;
+    
+}
+
+.members__logo:first-of-type {
+
+    margin-left: 0px;
+    
+}
+
+@media screen and (max-width: 425px){
+    .members__logo:first-of-type {
+        width: 25%;
+        margin-right: 80px;
+        margin-left: 74px; 
+        margin-bottom: 38px;
+    }
+    .members__logo:nth-of-type(2) {
+        width: 44%;
+        margin-left: 0px;
+    }
+    .members__logo:nth-of-type(3) {
+        margin-left: 38px;
+        width: 44%;
+    }
+}
+
+
+
+@media screen and (max-width: 320px){
+
+    .members__logo:nth-of-type(3) {
+        margin-left: 26px;
+        width: 44%;
+    }
+}

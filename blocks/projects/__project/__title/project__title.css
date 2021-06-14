@@ -1,0 +1,30 @@
+.project__title {
+font-family: 'FiraSans';
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: -0.005em;
+color: #000000;
+margin-left: 20px;
+margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px){
+    .project__title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .project__title {
+        font-size: 14px;
+        line-height: 17px;
+        width: 65%;
+        margin-bottom: 30px;
+    }
+
+}

@@ -1,0 +1,26 @@
+.members__partners {
+padding-right: 250px;
+
+}
+
+@media screen and (max-width: 1024px){
+    .members__partners {
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .members__partners {
+        padding-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .members__partners {
+        margin-left: 0px;
+        margin-bottom: 150px;
+    }
+
+}
